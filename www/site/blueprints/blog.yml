@@ -1,0 +1,19 @@
+title: Blog
+
+pages:
+  sort: flip
+  template:
+    - article.text
+    - article.link
+    - article.video
+    - month
+files: false
+
+fields:
+
+  pageMeta:
+    label: Page Meta
+    type: headline
+  title:
+    label: Title
+    type:  text

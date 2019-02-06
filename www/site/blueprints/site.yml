@@ -1,0 +1,14 @@
+title: Site
+fields:
+  title:
+    label: Title
+    type:  text
+  description:
+    label: Description
+    type: textarea
+  accords:
+    label: ACCORDS Logo SVG
+    type: textarea
+  tff:
+    label: TFF Logo SVG
+    type: textarea

@@ -1,0 +1,75 @@
+title: Project
+pages: false
+files: true
+  sortable: true
+  fields:
+    span:
+      label: Row span
+      type: select
+      default: three
+      width: 1/2
+      options:
+        one: 1
+        two: 2
+        three: 3
+        four: 4
+        five: 5
+        six: 6
+        seven: 7
+        eight: 8
+        nine: 9
+        ten: 10
+        eleven: 11
+        twelve: 12
+    offset:
+      label: Ofset span
+      type: select
+      default: zero
+      width: 1/2
+      options:
+        zero: 0
+        one: 1
+        two: 2
+        three: 3
+        four: 4
+        five: 5
+        six: 6
+        seven: 7
+        eight: 8
+        nine: 9
+        ten: 10
+        eleven: 11
+        twelve: 12
+    clear:
+      label: Make image go to next row?
+      type: checkbox
+    hide_caption:
+      label: Hide caption?
+      type: checkbox
+      width: 1/2
+    caption_placement:
+      label: Caption Placement
+      type: select
+      default: tl
+      width: 1/2
+      options:
+        tl: Top Left
+        tr: Top Right
+        cl: Center Left
+        cr: Center Right
+        bl: Bottom Left
+        br: Bottom Right
+        al: Above Left
+        ar: Above Right
+        bel: Below Left
+        ber: Below Right
+    custom_caption:
+      label: Custom caption
+      type: textarea
+fields:
+  title:
+    label: Title
+    type:  textarea
+  subtitle:
+    label: Subtitle
+    type:  textarea

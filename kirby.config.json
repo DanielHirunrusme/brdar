@@ -1,0 +1,16 @@
+{
+  "modules": {
+    "core": "https://github.com/getkirby/kirby.git",
+    "panel": "https://github.com/getkirby/panel.git",
+    "fields": {
+      "Kirby-Color-Picker": "git@github.com:ian-cox/Kirby-Color-Picker.git",
+      "kirby-color": "git@github.com:schnti/kirby-color.git"
+    },
+    "plugins": {
+      "kirby-webpack": "git@github.com:brocessing/kirby-webpack.git",
+      "kirby-color": "git@github.com:schnti/kirby-color.git"
+    },
+    "tags": {},
+    "widgets": {}
+  }
+}
